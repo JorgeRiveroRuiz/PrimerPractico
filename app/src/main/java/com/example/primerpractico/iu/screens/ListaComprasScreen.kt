@@ -19,7 +19,7 @@ import com.example.primerpractico.viewmodel.RecetaViewModel
 
 
 @Composable
-fun ListaComprasScreen(viewModel: RecetaViewModel) {
+fun ListaComprasScreen(viewModel: RecetaViewModel, ) {
 
     val lista = viewModel.listaCompras()
     val comprados by viewModel.comprados.collectAsState()

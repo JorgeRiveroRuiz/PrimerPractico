@@ -25,6 +25,12 @@ fun AppNavigation(viewModel: RecetaViewModel) {
                 viewModel = viewModel,
                 onNavigateToCrear = {
                     navController.navigate("crear")
+                },
+                onNavigateToPlan = {
+                    navController.navigate("plan")
+                },
+                onNavigateToCompras = {
+                    navController.navigate("compras")
                 }
             )
         }
